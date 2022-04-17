@@ -1,0 +1,35 @@
+:root{
+    --anek: 'Anek Tamil', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav img{
+    width: 300px;
+    padding: 5px 5px;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 50px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: var(--anek);
+    color: #6CC5D9;
+}
+.btnSignIn{
+    color: #f15946;
+    border: 3px solid;
+    padding: 6px 16px;
+    border-radius: 30px;
+}
