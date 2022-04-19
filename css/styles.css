@@ -30,13 +30,48 @@ header nav ul{
 header nav ul li{
     list-style: none;
     display: inline-block;
-    padding: 0 50px;
+    padding: 5px 10px;
+    position: relative;
 }
 header nav ul li a{
     text-decoration: none;
     font-weight: 600;
     font-size: 1.5em;
     color: #4fc4f7;
+}
+header nav ul li:before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 20px;
+    border-top: 3px solid #4fc4f7;
+    border-left: 3px solid #4fc4f7;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    opacity: 0;
+}
+header nav ul li:after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 20px;
+    border-right: 3px solid #e01a4f;
+    border-bottom: 3px solid #e01a4f;
+    right: 0;
+    bottom: 0;
+    transition: 0.5s;
+    opacity: 0;
+}
+header nav ul li:hover:before{
+    left: -10px;
+    top: -10px;
+    opacity: 1;
+}
+header nav ul li:hover:after{
+    right: -10px;
+    bottom: -10px;
+    opacity: 1;
 }
 .btnSignIn{
     font-weight: 600;
@@ -48,9 +83,10 @@ header nav ul li a{
 
 }
 .btnSignIn:hover{
-    background-color: rgba(242,242,242,0.5);
+    background-color: rgba(254,230,48,1);
+
 }
-.btnSignIn a:hover{
+.a:hover{
     color: #000;
 }
 /*MainPath Section*/
@@ -95,6 +131,9 @@ span:before{
     border: 3px solid;
     padding: 6px 16px;
     border-radius: 50px;
+}
+.btnSign:hover{
+    background-color: rgba(254,230,48,1);
 }
 /*About Section*/
 .aboutPath{
