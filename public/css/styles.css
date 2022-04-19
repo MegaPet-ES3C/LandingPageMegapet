@@ -165,7 +165,9 @@ margin-bottom: 100px;
     color: #f15946;
 
 }
-
+.testimonialPath h3{
+    color: #e01a4f;
+}
 .testimonialPath em{
     font-weight: 385;
     font-size: 25px;
@@ -198,7 +200,31 @@ margin-bottom: 100px;
 
 }
 /*Activity Section*/
-
+.activityPath{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.activityPath h2{
+    padding-top: 200px;
+    letter-spacing: 0.45em;
+    font-weight: 600;
+    font-size: 50px;
+    color: #f15946;
+}
+.activityPath h3{
+    color: #e01a4f;
+}
+.activityPath p{
+    color: #4fc4f7;
+}
+.activityRow{
+    display: flex;
+    justify-content: space-around;
+}
+.activityCol{
+    box-sizing: border-box;
+    flex-basis: 30%;
+}
 
 
 
