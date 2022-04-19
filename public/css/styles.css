@@ -41,7 +41,7 @@ header nav ul li a{
 .btnSignIn{
     font-weight: 600;
     text-decoration: none;
-    color: #f15946;
+    color: #e01a4f;
     border: 3px solid;
     padding: 6px 16px;
     border-radius: 30px;
@@ -58,6 +58,7 @@ header nav ul li a{
     background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(../img/wallpaper.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -85,11 +86,82 @@ span:before{
     margin: 0 290px;
     font-size: 20px;
     text-decoration: none;
-    color: #f15946;
+    color: #e01a4f;
     border: 3px solid;
     padding: 6px 16px;
     border-radius: 50px;
 }
+/*AboutPath Section*/
+.aboutPath{
+    height: 1100px;
+
+
+}
+.aboutPath h2{
+    padding-top: 150px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-size: 50px;
+    color: #f15946;
+}
+.aboutRow{
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+.colAbout{
+    box-sizing: border-box;
+
+}
+.fixed{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.fixed p{
+    padding-right: 100px;
+}
+.example{
+    padding-top: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.example p{
+    margin-left: 100px;
+    width: 50%;
+    height: 50%;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #4fc4f7;
+}
+.example img{
+    border-radius: 100px;
+    margin-right: 100px;
+    width: 500px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes animate {
     0% {
         content: 'dogs';
