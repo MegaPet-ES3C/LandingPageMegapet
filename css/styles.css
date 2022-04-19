@@ -225,8 +225,47 @@ margin-bottom: 100px;
     box-sizing: border-box;
     flex-basis: 30%;
 }
+/*Footer Section*/
+.footerPath{
+    background: #1f1f1f;
+    color: #fff;
+}
 
+.footerPath img{
+    width: 45px;
+    padding: 0 5px 0 20px;
+}
 
+.footerRow{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCol{
+    flex-basis: 15%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 55px 15px;
+    margin-bottom: 3%;
+    background: #1f1f1f;
+}
+
+.footerCol h2{
+    font-size: 15px;
+}
+
+.footerCol li{
+    list-style: none;
+    padding-bottom: 17px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.footerCol a{
+    color: #fff;
+   text-decoration: none;
+}
 
 
 
