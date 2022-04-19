@@ -74,8 +74,13 @@ header nav ul li a{
     transform: translate(-50%,-50%);
 
 }
+.mainText h1{
+    font-weight: bold;
+}
 span{
-    color: #4fc4f7;
+    background: linear-gradient(90deg, #007cf0, #00df98);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     width: 100%;
 }
 span:before{
@@ -91,16 +96,16 @@ span:before{
     padding: 6px 16px;
     border-radius: 50px;
 }
-/*AboutPath Section*/
+/*About Section*/
 .aboutPath{
-    height: 1100px;
 
+margin-bottom: 100px;
 
 }
 .aboutPath h2{
     padding-top: 150px;
     text-align: center;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.45em;
     font-weight: 600;
     font-size: 50px;
     color: #f15946;
@@ -116,8 +121,8 @@ span:before{
 
 }
 .fixed{
-    padding-left: 100px;
-    padding-top: 100px;
+    padding-left: 150px;
+    align-items: center;
 }
 .fixed p{
     padding-right: 100px;
@@ -144,13 +149,66 @@ span:before{
     width: 500px;
     height: 300px;
 }
+/*Testimonial Section*/
+.testimonialPath{
+    background-color: #ECF9FE;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.testimonialPath h2{
+    text-align: center;
+    letter-spacing: 0.45em;
+    font-weight: 600;
+    font-size: 50px;
+    color: #f15946;
+
+}
+
+.testimonialPath em{
+    font-weight: 385;
+    font-size: 25px;
+    color: #0c090d;
+}
+.testimonialRow{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.testimonialCol{
+    box-sizing: border-box;
+    border-radius: 11px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.8) 0px 30px 60px -30px;
+    background: linear-gradient(293deg, rgb(185, 185, 255) 0%, rgb(72, 225, 255) 100%);
+    padding: 2px 12px;
+    transition: 0.5s;
+    flex-basis: 30%;
+}
+.testimonialCol:hover{
+    box-shadow: 0 0 20px 0 rgba(3,200,230,1);
+}
+.testimonialCol img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 15px 0 25px 0;
+}
+.testimonialCol p{
+
+}
+
+/*
 
 
+.card {
+    width: 190px;
+    height: 254px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background: linear-gradient(293deg, rgb(185, 185, 255) 0%, rgb(72, 225, 255) 100%);
+}
 
-
-
-
-
+*/
 
 
 
