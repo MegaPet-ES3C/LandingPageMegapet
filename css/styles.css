@@ -76,12 +76,22 @@ header nav ul li:hover:after{
 .btnSignIn{
     font-weight: 600;
     text-decoration: none;
-    color: #e01a4f;
+    color: #f15946;
     border: 3px solid;
     padding: 6px 16px;
     border-radius: 30px;
-
 }
+.btnOptions{
+    font-weight: 600;
+    text-decoration: none;
+    color: #f15946;
+    border: 3px solid;
+    padding: 6px 26px;
+    border-radius: 30px;
+    position: center;
+    font-size: x-large;
+}
+
 .btnSignIn:hover{
     background-color: rgba(254,230,48,1);
 
