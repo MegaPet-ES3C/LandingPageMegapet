@@ -89,6 +89,17 @@ header nav ul li:hover:after{
 .a:hover{
     color: #000;
 }
+
+.button-About{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid;
+    padding: 6px 16px;
+    border-radius: 50px;
+    position: absolute;
+}
+
 /*MainPath Section*/
 .mainPath{
     background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(../img/wallpaper.jpg);
@@ -138,7 +149,7 @@ span:before{
 /*About Section*/
 .aboutPath{
 
-margin-bottom: 100px;
+    margin-bottom: 100px;
 
 }
 .aboutPath h2{
@@ -148,30 +159,27 @@ margin-bottom: 100px;
     font-weight: 600;
     font-size: 50px;
     color: #f15946;
+    background: white;
 }
 .aboutRow{
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    background: white;
 }
 .colAbout{
     box-sizing: border-box;
 
 }
-.fixed{
-    padding-left: 150px;
-    align-items: center;
-}
-.fixed p{
-    padding-right: 100px;
-}
+
 .example{
-    padding-top: 100px;
+    align-items: center;
+    align-content: center;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .example p{
-    margin-left: 100px;
+
     width: 50%;
     height: 50%;
     text-align: justify;
@@ -182,7 +190,7 @@ margin-bottom: 100px;
 }
 .example img{
     border-radius: 100px;
-    margin-right: 100px;
+
     width: 500px;
     height: 300px;
 }
