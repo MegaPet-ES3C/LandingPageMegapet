@@ -149,7 +149,7 @@ span:before{
 /*About Section*/
 .aboutPath{
 
-margin-bottom: 100px;
+    margin-bottom: 100px;
 
 }
 .aboutPath h2{
@@ -158,10 +158,8 @@ margin-bottom: 100px;
     letter-spacing: 0.45em;
     font-weight: 600;
     font-size: 50px;
-    color: black;
+    color: #f15946;
     background: white;
-    text-underline: black;
-    position: page;
 }
 .aboutRow{
     width: 100%;
@@ -172,32 +170,27 @@ margin-bottom: 100px;
     box-sizing: border-box;
 
 }
-.fixed{
-    padding-left: 150px;
-    align-items: center;
-}
-.fixed p{
-    padding-right: 100px;
-}
+
 .example{
-    padding-top: 100px;
+    align-items: center;
+    align-content: center;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .example p{
-    margin-left: 100px;
+
     width: 50%;
     height: 50%;
     text-align: justify;
     font-size: 20px;
     font-weight: 500;
     line-height: 22px;
-    color: black;
+    color: #4fc4f7;
 }
 .example img{
     border-radius: 100px;
-    margin-right: 100px;
+
     width: 500px;
     height: 300px;
 }
