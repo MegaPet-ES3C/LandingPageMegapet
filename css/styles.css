@@ -35,10 +35,9 @@ header nav ul li{
 }
 header nav ul li a{
     text-decoration: #00df98;
-    font-weight: 400;
-    font-size: 1.44em;
-    color: greenyellow;
-    font-family: "Sitka Heading";
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #4fc4f7;
 }
 header nav ul li:before{
     position: absolute;
