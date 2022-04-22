@@ -89,6 +89,17 @@ header nav ul li:hover:after{
 .a:hover{
     color: #000;
 }
+
+.button-About{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid;
+    padding: 6px 16px;
+    border-radius: 50px;
+    position: absolute;
+}
+
 /*MainPath Section*/
 .mainPath{
     background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(../img/wallpaper.jpg);
