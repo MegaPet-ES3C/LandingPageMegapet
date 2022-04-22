@@ -148,10 +148,13 @@ margin-bottom: 100px;
     font-weight: 600;
     font-size: 50px;
     color: #f15946;
+    text-underline: black;
+    position: page;
 }
 .aboutRow{
     width: 100%;
     justify-content: space-between;
+    background: slategrey;
 }
 .colAbout{
     box-sizing: border-box;
