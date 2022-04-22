@@ -147,14 +147,15 @@ margin-bottom: 100px;
     letter-spacing: 0.45em;
     font-weight: 600;
     font-size: 50px;
-    color: #f15946;
+    color: black;
+    background: white;
     text-underline: black;
     position: page;
 }
 .aboutRow{
     width: 100%;
-    justify-content: space-between;
-    background: slategrey;
+    justify-content: center;
+    background: white;
 }
 .colAbout{
     box-sizing: border-box;
@@ -181,7 +182,7 @@ margin-bottom: 100px;
     font-size: 20px;
     font-weight: 500;
     line-height: 22px;
-    color: #4fc4f7;
+    color: black;
 }
 .example img{
     border-radius: 100px;
