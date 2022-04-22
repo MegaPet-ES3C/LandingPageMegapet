@@ -11,16 +11,16 @@
 
 header nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 1;
-    padding: 10px 10px;
+    padding: 5px 5px;
 }
 header nav img{
     width: 300px;
-
+    color: white;
     padding: 5px 5px;
 }
 header nav ul{
@@ -82,14 +82,15 @@ header nav ul li:hover:after{
     border-radius: 30px;
 }
 .btnOptions{
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
-    color: #f15946;
+    color: red;
     border: 3px solid;
-    padding: 6px 26px;
-    border-radius: 30px;
+    padding: 6px 15px;
+    border-radius: 25px;
     position: center;
     font-size: x-large;
+
 }
 
 .btnSignIn:hover{
@@ -346,6 +347,7 @@ margin-bottom: 100px;
     }
     .btnSign{
 
+
     }
     .example{
         flex-direction: column;
@@ -412,17 +414,26 @@ margin-bottom: 100px;
     0% {
         content: 'dogs';
     }
-    35% {
+    10% {
         content: 'cats';
     }
-    60% {
+    30% {
+        content: 'For a better world';
+    }
+    40% {
         content: 'animals';
     }
-    75% {
+    65% {
         content: 'them';
     }
-    100% {
+    80% {
         content: 'us';
     }
+
+    100% {
+        content: 'Adopt';
+    }
+
+
 
 }
