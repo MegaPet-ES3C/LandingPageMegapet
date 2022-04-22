@@ -286,7 +286,7 @@ margin-bottom: 100px;
 .footerRow{
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footerCol{
