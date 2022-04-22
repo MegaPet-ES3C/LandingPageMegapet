@@ -34,10 +34,11 @@ header nav ul li{
     position: relative;
 }
 header nav ul li a{
-    text-decoration: none;
+    text-decoration: #00df98;
     font-weight: 400;
     font-size: 1.44em;
     color: greenyellow;
+    font-family: "Sitka Heading";
 }
 header nav ul li:before{
     position: absolute;
@@ -413,12 +414,14 @@ margin-bottom: 100px;
 @keyframes animate {
     0% {
         content: 'dogs';
+
     }
     10% {
         content: 'cats';
     }
     30% {
         content: 'For a better world';
+        size: A5;
     }
     40% {
         content: 'animals';
