@@ -287,7 +287,7 @@ span:before{
 }
 
 .footerPath img{
-    width: 45px;
+    width: 50px;
     padding: 0 5px 0 20px;
 }
 
@@ -299,27 +299,27 @@ span:before{
 
 .footerCol{
     flex-basis: 15%;
-    border-radius: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
-    padding: 55px 15px;
-    margin-bottom: 3%;
+    padding: 50px 20px;
+    margin-bottom: 1%;
     background: #1f1f1f;
 }
 
 .footerCol h2{
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .footerCol li{
     list-style: none;
-    padding-bottom: 17px;
+    padding-bottom: 15px;
     padding-top: 15px;
     position: relative;
 }
 
 .footerCol a{
     color: #fff;
-   text-decoration: none;
+   text-decoration: #ffffff;
 }
 
 
