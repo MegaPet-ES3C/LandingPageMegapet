@@ -8,7 +8,16 @@
     box-sizing: border-box;
     font-family: var(--anek);
 }
+.mainPath{
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(../img/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
 
+}
 header nav{
     display: flex;
     justify-content: space-between;
@@ -132,16 +141,7 @@ header nav ul li:hover:after{
     color: #f15946;
 }
 /*MainPath Section*/
-.mainPath{
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(../img/wallpaper.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
 
-}
 .mainText{
     left: 50%;
     top: 50%;
@@ -355,7 +355,7 @@ span:before{
 
 
 
-@media (max-width: 1400px) {
+@media (max-width: 700px) {
     header nav ul{
         position: absolute;
         background: #5da6a6;
